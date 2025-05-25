@@ -1,0 +1,177 @@
+  104  git pull
+  450  git clone https://github.com/raspberrypi/pico-sdk.git --branch develop
+  452  git submodule update --init
+  459  git submodule update --init
+  461  git clone https://github.com/raspberrypi/pico-examples.git --branch develop
+  485  git pull
+  486  git status
+  487  git switch develop-frontend
+  488  git status
+  489  git pull
+  645  git pull
+  693  git fetch
+  694  git pull
+  722  git branch
+  723  git pull
+  724  git branch
+  725  git fetch origin
+  726  git status
+  727  git status
+  728  git status
+  729  git add landing.module.css 
+  730  git status
+  731  git commit -m "Gradiente do landing corrigido"
+  732  git push
+  755  git clone https://github.com/INSA-CG/MudasNativas
+  756  git clone https://github.com/INSA-CG/MudasNativas.git
+  762  git switch develop-frontend
+  770  git branch
+  771  git switch develop
+  772  git checkout develop
+  773  git pull
+  774  git switch develop
+  775  git branch
+  778  git status
+  779  git switch develop-frontend 
+  780  git brnach
+  781  git branch
+  783  git switch develop
+  789  git fetch
+  791  git pull
+  792  git switch develop
+  793  git pull
+  794  git branch
+  795  git pull
+  796  git pull
+  813  git pull
+  825  git status
+  828  git status
+  829  git pull
+  830  git status
+  831  git switch develop-frontend 
+  832  git branch
+  833  git checkout develop-frontend 
+  839  git clone https://github.com/INSA-CG/MudasNativas
+  841  git status
+  842  git switch develop
+  844  git status
+  869  git clone https://github.com/INSA-CG/MudasNativas.git
+  870  git status
+  871  git status
+  872  git status
+  873  git status
+  874  git status
+  875  git branch
+  876  git status2
+  877  git status
+  878  git add .
+  879  git status
+  880  git commit -m "Correções na estilização"
+  881  git push
+  882  git pull
+  883  git status
+  884  git push -u origin develop
+  885  git pull origin develop
+  886  git pull origin develop --rebase
+  888  git status
+  889  git push
+  891  git status
+  912  git clone https://github.com/INSA-CG/MudasNativas.git
+  914  git status
+  915  git switch develop
+  917  git pull
+  921  git status
+  922  git status
+  923  git checkout develop-frontend 
+  924  git branch
+  929  git switch develop
+  950  git status
+  954  git status
+  955  git log
+  968  git pull
+  969  git status
+  971  git restore pages/termos-condicoes/*
+  972  git status
+  973  git pull
+  974  git status
+  975  git add .
+  976  git commit -m "Correção Boxes de mudas e palmas e minhas soliciatações"
+  979  git push
+  982  git status
+  984  git status
+  985  git pull
+  986  git status
+  987  git branch
+  989  git push
+  990  git status
+  991  git add .
+  992  git commit -m "Ajuste de cor terciária nas pages de solicitação"
+  993  git push
+  994  git pull
+  997  git pull
+ 1000  git init
+ 1004  git add.
+ 1005  git add .
+ 1006  git commit -m "Primeiro commit com 3 arquivos"
+ 1009  git log
+ 1010  git log --oneline
+ 1011  git log --graph --all --decorate
+ 1012  git revert HEAD
+ 1013  git status
+ 1014  git diff
+ 1015  git add arquivo1.txt arquivo2.txt 
+ 1016  git commit -m "Alterações no arquivo 1 e 2"
+ 1017  git log --oneline
+ 1018  git log --graph --all --decorate
+ 1019  git revert HEAD
+ 1021  git stash
+ 1022  git checkout -b nova-linha-desenvolvimento
+ 1025  git checkout main
+ 1026  git branch
+ 1027  git checkout master
+ 1028  git stash pop
+ 1030  git stash pop
+ 1032  git branch
+ 1035  git switch arquivo4.txt
+ 1036  git switch nova-linha-desenvolvimento 
+ 1041  git switch master 
+ 1042  git status
+ 1043  git reflog
+ 1044  git branch
+ 1045  git log --online
+ 1046  git log --oneline
+ 1047  git tag -a v1.0 -m "Versão estável inicial" abc1234
+ 1048  git tag -a v1.0 -m "Versão estável inicial" abc123
+ 1049  git tag -a v1.0 -m "Versão estável inicial" 
+ 1050  git push origin v1.0
+ 1052  rm -rf tarefa_git_unidade3/
+ 1054  mkdir tarefa_git_unidade3
+ 1055  cd tarefa_git_unidade3/
+ 1056  git init
+ 1060  git add .
+ 1061  git commit -m "Primeiro commit com 3 arquivos"
+ 1065  git status
+ 1066  git diff
+ 1067  git add arquivo1.txt arquivo2.txt 
+ 1068  git commit -m "Alterações nos arquivos 1 e 2"
+ 1069  git log
+ 1070  git log --oneline
+ 1071  git log --graph --all --decorate
+ 1072  git revert HEAD
+ 1074  git stash
+ 1075  git branch
+ 1076  git checkout -b nova-linha-desenvolvimento
+ 1077  git checkout master
+ 1078  git stash pop
+ 1079  git add .
+ 1080  git stash pop
+ 1081  git status
+ 1082  git stash list
+ 1083  git branch
+ 1084  git commit -m "alterações temp"
+ 1085  git status
+ 1086  git reflog
+ 1087  git log --oneline
+ 1088  git tag -a v1.0 -m "Versão estável inicial"
+ 1089  git push origin v1.0 
+ 1090  history | grep git > comandos.txt
