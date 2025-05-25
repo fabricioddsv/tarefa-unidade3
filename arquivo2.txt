@@ -1,1 +1,1 @@
-Outra linha no arquivo 2
+Conteúdo do arquivo 2
